@@ -1,0 +1,151 @@
+body{
+	margin:0px;
+	background-image:url(../images/pg_bc.gif);
+	background-repeat:repeat;
+}
+
+/* Header styles & Nav*/
+
+#head_contain{
+	width:1016px;
+	height:88px;
+	margin:auto;
+	padding-top:0px;
+	padding-bottom:15px;
+	
+}
+
+#logo_holder{
+	width:502px; 
+	height:102px;
+	float:left;
+}
+
+#acc_text{
+	font-family: 'Quantico', sans-serif;
+	color: #F5F5F5;
+	font-weight:90;
+	font-size:14px;
+	width:502px; 
+	height:102px;
+	float:left;
+	text-align: right;
+}
+
+#acc_text a:link,a:active, a:visited {
+	color:#1C6CC3;
+	text-decoration:none	
+}
+
+#nav{
+	width:1016px;
+	height:58px;
+	margin:auto;
+	background-image:url(../images/nav_bc.png);
+	background-repeat:repeat-x;
+	border:solid thin #e3e3e3;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	
+}
+
+#nav li{
+	font-family: 'LiberatorRegular', Arial, sans-serif;
+	font-size:15px;
+	text-shadow: 0px 0px 0px  #fff;
+	list-style:none;
+	float:left;
+	padding:8px 20px;
+}
+
+
+.act {
+	font-family: 'LiberatorRegular', Arial, sans-serif;
+	font-size:15px;
+	color:#FFF;
+	text-shadow: 0px 0px 0px  #fff;
+	list-style:none;
+	float:left;
+	padding:8px 20px;
+	background-color:#333;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border-bottom: solid thin #497CB8;
+}
+
+#nav a:link{
+	text-decoration:none;
+	color:#333;
+	
+	
+}
+
+#nav a:hover li{
+	font-family: 'LiberatorRegular', Arial, sans-serif;
+	font-size:15px;
+	color:#FFF;
+	text-shadow: 1px 0px 0px  #000;
+	list-style:none;
+	float:left;
+	padding:8px 20px;
+	background-color:#333;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border-bottom: solid thin #027B58;
+}
+
+#pag_box{
+	width:1016px; 
+	height:30px;
+	margin:auto;
+	clear:both;
+	padding-top:20px;
+	padding-left:10px
+}
+
+#pag_text{
+	width:710px; 
+	height:30px;
+	font-family: 'LiberatorRegular', Arial, sans-serif;
+	font-size:28px;
+	float:left;
+	padding-top:8px;
+
+}
+
+#pag_extras{
+	width:286px;
+	height:30px;
+	float:left;
+		
+}
+
+.search{
+	width:166px;
+	height:36px;
+	border:solid thin #B0B0B1;	
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	float:right
+}
+
+.search_button{
+	width:39px;
+	height:36px;
+	background-image:url(../images/botton_small.gif); 
+	background-repeat:repeat-x;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+		
+}
+
+
+
+/* General styles icons, buttons, sub headers, global elements ect... */
+
+#footer{
+	width:1016px; 
+	height:70px;	
+	clear:both;
+	margin:auto;
+}
